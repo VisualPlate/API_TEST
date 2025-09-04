@@ -8,8 +8,7 @@
 <body>
     <h1>Muokkaa</h1>
     <?php
-    //path to file
-    $apiUrl = "http://localhost/jere/WebProjects/schoolprojects/apihar/autot_api.php";
+    require("path.php");
 
     $auto = null;
     if (isset($_GET["id"])) {

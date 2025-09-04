@@ -7,8 +7,7 @@
 </head>
 <body>
     <?php
-    //path to file
-    $apiUrl = "http://localhost/jere/WebProjects/schoolprojects/apihar/autot_api.php";
+    require("path.php");
 
     $autot = [];
     if (isset($_GET["id"])) {

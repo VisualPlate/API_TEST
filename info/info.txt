@@ -1,0 +1,8 @@
+db_config.php to set db, user, pass and host
+
+by default needs:
+-db = 213598
+-table = autot
+-autot tables = ID, merkki, tyyppi and vuosimalli
+
+path.php to change api path which is most likely different

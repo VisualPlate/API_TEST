@@ -16,7 +16,7 @@
         <button type="submit" name="getID">Hae</button>
     </form>
     <?php
-    $apiUrl = "http://localhost/jere/WebProjects/schoolprojects/apihar/autot_api.php";
+    require("path.php");
 
     $autot = [];
 

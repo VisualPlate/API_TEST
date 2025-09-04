@@ -1,6 +1,6 @@
 <?php
     //apiUrl at API_path.php
-    require("API_path.php");
+    require("content/require/API_path.php");
 
     $response = file_get_contents("$apiUrl");
     $data = json_decode($response, true);
@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Sähkönhinta</title>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     </script>
@@ -49,7 +49,7 @@ const priceValues = [<?=$priceValues?>];
 const priceTaxlessValues = [<?=$priceTaxlessValues?>];
 </script>
 <!--file for chart-->
-<script src="mainChart.js"></script>
+<script src="content/script/mainChart.js"></script>
 
 </body>
 </html>
